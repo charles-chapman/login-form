@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+     <script type="text/javascript"></script>
+    
+     <script src="js/main.js"></script>
+     
+     
+     <link rel="stylesheet" href="css/main.css">
+
+     
+
+  <title></title>
+
+
+  </head>
+
+
+  <body>
+
+    <form action="/action_page.php">
+      <div class="imgcontainer">
+        <img src="img/img_avatar.jpg" alt="Avatar" class="avatar">
+      </div>
+
+      <p> USER LOGIN </p>
+      <div class="container">
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <input type="checkbox" checked="checked">Remember Me
+      </div>  
+
+      <P> REGISTER USER <P>
+      <div class="container">
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Register</button>
+        <!--input type="checkbox" checked="checked">Remember Me-->
+      </div>  
+
+      <div class="container" style="background-color: #f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>  
+
+    
+    <input type="text" id="myText" value="username">
+
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myText").value;
+      document.getElementById("demo").innerHTML = x;
+}
+</script>  
+
+
+
+
+
+  </body>
+</html>
